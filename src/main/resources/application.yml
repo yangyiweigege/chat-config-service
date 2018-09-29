@@ -1,0 +1,22 @@
+#配置服务注册中心
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://192.168.31.71:8761/eureka/
+  instance:
+    prefer-ip-address: true
+#配置端口。。。
+server:
+  port: 8888
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      label: master
+      server:
+        git:
+          password: 
+          searchPaths: config
+          uri: https://github.com/yangyiweigege/spring-cloud-config #使用http地址 不用git
+          username: 
