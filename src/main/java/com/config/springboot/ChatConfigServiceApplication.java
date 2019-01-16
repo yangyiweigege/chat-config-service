@@ -6,7 +6,7 @@ import org.springframework.cloud.config.server.EnableConfigServer;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 /**
- * 分布式配置中心
+ * 分布式配置中心 项目运行后 输入localhost:8888/chat-log-service/dev 即可访问到
  * @author yangyiwei
  * @date 2018年5月29日
  * @time 下午2:41:55
