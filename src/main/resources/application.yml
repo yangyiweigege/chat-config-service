@@ -5,7 +5,7 @@ eureka:
       defaultZone: http://localhost:8761/eureka/
   instance:
     prefer-ip-address: true
-#配置端口 随便新增点什么
+#配置端口
 server:
   port: 8888
 spring:
